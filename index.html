@@ -1,143 +1,72 @@
-<!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<!-- Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-G3LYVTV575"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3LYVTV575"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-		gtag('config', 'G-G3LYVTV575');
-		</script>
+            gtag("config", "G-G3LYVTV575");
+        </script>
 
-		<title>Cal Goheen</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Cal Goheen</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="intro">
+            <img class="avatar" src="images/me-avatar.jpg" alt="Cal Goheen" />
+            <div>
+                <p class="eyebrow">Audio software developer</p>
+                <h1>Cal Goheen</h1>
+                <p>I build open source audio software.</p>
+            </div>
+        </header>
 
-	<body class="is-preload">
+        <h2>Plugins</h2>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Cal Goheen</a></h1>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">Plugins</a></li>
-						<li><a href="#two">About</a></li>
-						<li><a href="#three">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://github.com/calgoheen" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="https://www.linkedin.com/in/calgoheen" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					</ul>
-				</footer>
-			</section>
+        <div class="cards">
+            <a class="card" href="cstop.html">
+                <img class="cover cover--cstop" src="images/cStop.png" alt="cStop plugin" />
+                <p>cStop &rarr;</p>
+            </a>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+            <a class="card" href="cchorus.html">
+                <img class="cover cover--cchorus" src="images/cChorus.png" alt="cChorus plugin" />
+                <p>cChorus &rarr;</p>
+            </a>
 
-				<!-- Main -->
-					<div id="main">
+            <a class="card" href="cflanger.html">
+                <img class="cover cover--cflanger" src="images/cFlanger.png" alt="cFlanger plugin" />
+                <p>cFlanger &rarr;</p>
+            </a>
 
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major"><h2>Plugins</h2></header>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/cStop.png" alt="" /></a>
-											<div class="inner">
-												<h4>cStop</h4>
-												<p>Tape stop plugin with useful options for customization. Windows compatibility coming soon.</p>
-												<a href="https://github.com/calgoheen/cStop" class="button primary">View on GitHub</a>
-												<a href="https://github.com/calgoheen/cStop/releases/download/v1.0.0/cStop.pkg" class="button alt icon brands fa-apple">Download Mac</a>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/crasshhfy.png" alt="" /></a>
-											<div class="inner">
-												<h4>CRASSHHFY</h4>
-												<p>CRASSHHFY (Crashify) is a neural audio plugin that uses artificial intelligence to generate and modify drum samples directly in the DAW. This plugin was built in collaboration with <a href="https://github.com/mhrice">Matt Rice</a>.</p>
-												<a href="https://github.com/calgoheen/crasshhfy" class="button primary">View on GitHub</a>
-												<a href="https://www.youtube.com/watch?v=0EABPymEGMA" class="button alt">Watch Demo</a>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>More plugins coming soon</h4>
-												<p>Don't touch them right when they come out, they'll be hot!</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
+            <a class="card" href="creverb.html">
+                <img class="cover cover--creverb" src="images/cReverb.png" alt="cReverb plugin" />
+                <p>cReverb &rarr;</p>
+            </a>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<header class="major"><h2>About</h2></header>
-									<h3>Hello, nice to meet you.</h3>
-									<p>I am an audio software developer, producer, and music enthusiast that enjoys building modern audio plugins to help make the creative process easier. I am currently working as a freelancer with ongoing projects at <a href="https://babyaud.io/">BABY Audio</a>.</p>
-									<p>Here are some of the things I do / have done:</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-graduation-cap">B.S. in Audio & Music Engineering from the University of Rochester</li>
-										<li class="icon solid fa-code">Develop audio plugins with JUCE and C++</li>
-										<li class="icon solid fa-wave-square">Prototype DSP in MATLAB, Python, and Max MSP</li>
-										<li class="icon solid fa-tree">Occasionally go outside</li>
-										<li class="icon solid fa-cubes">Build open source plugins</li>
-										<li class="icon solid fa-music">Produce electronic music and play the piano</li>
-									</ul>
-								</div>
-							</section>
+            <a class="card" href="cphaser.html">
+                <img class="cover cover--cphaser" src="images/cPhaser.png" alt="cPhaser plugin" />
+                <p>cPhaser &rarr;</p>
+            </a>
 
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<header class="major"><h2>Contact</h2></header>
-									<h3>Questions, comments, inquiries?</h3>
-									<p>Reach out via email or find me online:</p>
-									<a href="mailto:calgoheen@gmail.com" class="button primary icon fa-envelope">Email</a>
-									<a href="https://github.com/calgoheen" class="button primary icon brands fa-github">GitHub</a>
-									<a href="https://www.linkedin.com/in/calgoheen" class="button primary icon brands fa-linkedin">LinkedIn</a>
-								</div>
-							</section>
-					</div>
+            <a class="card" href="cchorus-fancy.html">
+                <img class="cover cover--cchorus-fancy" src="images/cChorus-Fancy.webp" alt="cChorus-Fancy plugin" />
+                <p>cChorus-Fancy &rarr;</p>
+            </a>
+        </div>
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Cal Goheen</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        <h2>Get in touch</h2>
+        <p>
+            <a class="button" href="mailto:calgoheen@gmail.com">Email</a>
+            <a class="button" href="https://github.com/calgoheen">GitHub</a>
+            <a class="button" href="https://www.linkedin.com/in/calgoheen/">LinkedIn</a>
+        </p>
+    </body>
 </html>
